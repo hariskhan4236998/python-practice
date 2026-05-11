@@ -1,4 +1,4 @@
-#Example 1
+##Exception handling Example 1
 name = 'haris'
 try:
     name = int(name)
@@ -6,7 +6,7 @@ except:
     name = 1
 print("hello",name)
 
-#Example 2
+##Exception handling Example 2
 x = '345'
 y = "hello"
 try:
@@ -16,7 +16,7 @@ except:
 print(x,y)
 
 
-#Example 3
+##Exception handling Example 3
 number = input("Enter a Number")
 try:
     num = int(number)
@@ -27,7 +27,7 @@ if num > 0:
 else:
     print("input number")
 
-#Example 4
+#Exception handling Example 4
 try:
     x = float(input("Enter your cgpa:"))
     print("your Cgpa is =",x)
